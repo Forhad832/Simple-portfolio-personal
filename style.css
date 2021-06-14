@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+.right{
+    float: right;
+}
+
+/* header section */
+.header-section{
+    box-shadow: 0 10px 40px rgba(132, 138, 153, 0.2);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+.header-section nav{
+    flex: 1;
+    text-align: right;
+}
+.header-section nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header-section nav ul li a{
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.active-home{
+    color: #0000FF;
+}
+/* header section end */
+
+
+/* boss bio pic section */
+
+.boss-bio-section{
+    padding: 100px 0px;
+}
+.boss-name{
+    border: 5px solid black;
+    width: 700px;
+    margin: auto;
+    padding: 20px 10px;
+}
+.boss-name h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.boss-name p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.boss-pic{
+    padding: 50px 0px;
+}
+.boss-pic img{
+    width: 160px;
+    border-radius: 50%;
+}
+/* boss bio pic section  end*/
+
+
+/* best-work-section */
+.best-work-section{
+    padding: 50px 0px;
+}
+.best-work-box{
+    border: 5px solid rgb(82, 81, 81);
+    width: 200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.all-works{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 90px 0px;
+}
+.work{
+    max-width: 400px;
+    flex-basis: 32%;
+}
+.work h2{
+    font-weight: 400;
+}
+/* <!-- best work by Me end --> */
+ 
+
+/* about me section */
+.about-me-section{
+    padding: 20px 0px;
+}
+.about-tile{
+    border: 5px solid rgb(82, 81, 81);
+    width: 200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.experience{
+    padding: 30px 0px;
+}
+.experience h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.experience p{
+    margin-bottom: 20px;
+}
+.about-myselft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+    text-align: right;
+    position: absolute;
+}
+.my-achievment{
+    flex-basis: 46%;
+   
+}
+.education{
+    text-align: left !important;
+    position: relative;
+    top: 28px;
+   
+}
+.skills ul li{
+    list-style-type: none;
+    font-size: 18px;
+    background: rgb(219, 215, 215);
+    padding: 10px 6px;
+    border-bottom: 1px solid black;
+    transition: .5s;
+}
+.skills ul li:hover{
+    background: rgb(8, 241, 117);
+}
+.btsp{
+    border-bottom: none !important;
+}
+.contact-me h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-me p{
+    margin-bottom: 10px;
+   
+}
+.contact-me p span{
+   margin-left: 10px;
+}
+
+
+/* contact page */
+
+.important-text{
+	text-align: center;
+	padding: 30px 0px;
+}
+.important-text p{
+	font-size: 20px;
+	text-align: ju;
+}
+.contact-head{
+	padding: 80px 0px;
+	background: rgb(226, 226, 226);
+}
+.contact-head h1{
+	font-size: 30px;
+	text-align: center;
+}
+.all-contact-information{
+	padding: 60px 0px;
+	text-align: center;
+}
+input{
+   display: block;
+   width: 300px;
+   margin: auto;
+   margin-bottom: 30px !important;
+   padding: 16px 6px;
+   outline: none;
+   font-size: 18px;
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0 20px 40px rgba(161, 164, 173, 0.3);
+}
+.message{
+	width: 310px;
+	outline: none;
+	margin-bottom: 30px;
+	padding: 4px;
+	border: none;
+	box-shadow: 0 20px 40px rgba(161, 164, 173, 0.3);
+}
+.submit-btn{
+	background: rgb(226, 26, 93);
+	color: #fff;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.submit-btn:hover{
+	background: purple;
+}
+input::placeholder{
+	font-size: 15px;
+}
+
+
+
+
+/* footer navbar */
+
+.footer-navbar-section {
+    background: rgb(235, 232, 232);
+    position: relative;
+    top: 914px;
+    padding: 20px 0px;
+}
+.footer-nav nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+.footer-nav nav ul li a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 30px;
+}
+footer{
+    background: rgb(199, 197, 197);
+    padding: 20px 0px;
+    color: #fff;
+    position: relative;
+    top: 914px;
+}
+.footer-social-link{
+    margin-right: 40px;
+}
+.footer-social-link i{
+    font-size: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    color: rgb(231, 111, 111);
+}
+#footer-section{
+    position: relative;
+    top: 0px;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+
+/* blogs */
+
+.blog-banner{
+	background-image: url(./banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	 padding: 100px 0px;
+}
+.blog-text{
+	color: #fff;
+}
+.blog-text h1{
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+/* blog */
+.all-blogs{
+	text-align: center;
+}
+.all-blogs img{
+	width: 100%;
+}
+.all-blogs h1{
+	color: rgb(51, 4, 51);
+}
+.all-blogs p{
+	text-align: left;
+	margin-left: 200px;
+	padding: 40px 0px;
+	line-height: 1.5em;
+}
+.small-content{
+	max-width: 1100px;
+	margin: auto;
+}
+.first-income{
+	padding: 50px 0px;
+	text-align: center;
+}
+.first-income h1{
+	font-size: 45px;
+	text-align: center;
+}
+
+.self-info{
+	padding: 40px 0px;
+	background: rgb(209, 207, 207);
+}
+.me{
+	text-align: center;
+}
+.me-text{
+	margin: 15px 0px;
+	color: rgb(80, 10, 80);
+}
+.me img{
+	width: 150px;
+	border-radius: 50%;
+}
+
+
+.about-me-section{
+    padding: 20px 0px;
+}
+.about-tile{
+    border: 5px solid rgb(82, 81, 81);
+    width: 200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.experience{
+    padding: 30px 0px;
+}
+.experience h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.experience p{
+    margin-bottom: 20px;
+}
+.about-myselft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+    text-align: right;
+    position: absolute;
+}
+.my-achievment{
+    flex-basis: 46%;
+   
+}
+.education{
+    text-align: left !important;
+    position: relative;
+    top: 28px;
+   
+}
+.skills ul li{
+    list-style-type: none;
+    font-size: 18px;
+    background: rgb(219, 215, 215);
+    padding: 10px 6px;
+    border-bottom: 1px solid black;
+    transition: .5s;
+}
+.skills ul li:hover{
+    background: rgb(8, 241, 117);
+}
+.btsp{
+    border-bottom: none !important;
+}
+.contact-me h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-me p{
+    margin-bottom: 10px;
+}

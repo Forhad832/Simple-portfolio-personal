@@ -1,0 +1,144 @@
+@media (max-width:1150px){
+    .education {
+        top: 8px;
+    }
+    .all-blogs p {
+        margin-left: 62px;
+    }
+}
+
+@media (max-width:1050px){
+    .boss-name h1 {
+        font-size: 55px;
+    }
+    .boss-name {
+        width: 584px;
+    }
+    .best-work-box {
+        width: 170px;
+    }
+    .best-work-box h1{
+        font-size: 22px;
+    }
+    .work h2 {
+        font-size: 20px;
+    }
+    .about-tile {
+        width: 170px;
+    }
+}
+
+@media (max-width:700px){
+    .boss-name {
+        width: 400px;
+    }
+    img.menu-icon {
+        margin-right: 50px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .header-section nav ul {
+        position: absolute;
+        top: 84px;
+        right: 0;
+        display: grid;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.4s;
+        background: rgb(65, 206, 22);
+    }
+    .header-section nav ul li {
+        display:block;
+        list-style-type: none;
+        margin: 10px 0px;
+    }
+    .header-section nav ul li a {
+        display: block;
+        margin-right: 50px;
+        color: #FFF;
+    }
+    .boss-name {
+        width: 346px;
+    }
+    .boss-name h1 {
+        font-size: 30px;
+    }
+    .all-works {
+        padding: 39px 0px;
+    }
+    .work {
+        flex-basis: 70%;
+        margin-bottom: 41px;
+    }
+    .work h2 {
+        font-size: 17px;
+    }
+    .my-achievment {
+        flex-basis: 79%;
+    }
+    .footer-navbar-section {
+        top: 1583px;
+    }
+    footer {
+        top: 1583px;
+    }
+    .all-blogs p {
+        font-size: 15px;
+    }
+    .first-income h1 {
+        font-size: 26px;
+    }
+    .all-blogs p {
+        margin-left: 10px;
+    }
+}
+@media (max-width:550px){
+    .footer-navbar-section {
+        top: 1645px;
+        text-align: center;
+    }
+    footer {
+        top: 1645px;
+    }
+    .footer-social-link {
+      margin-right: 0px;
+        margin-top: 25px;
+       margin-left: 0px;
+    }
+    .right {
+        float: none;
+    }
+    .footer-nav nav ul li a {
+      margin-left: 0px;
+    }
+    .important-text p {
+        font-size: 16px;
+        text-align: ju;
+    }
+
+    /* blog */
+
+    .blog-banner {
+        padding: 0px 0px;
+    }
+    .first-income h1 {
+        font-size: 25px;
+    }
+    .all-blogs p {
+        text-align: center;
+      margin-left: 0px;
+    }
+    .first-income h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:400px){
+    footer {
+        top: 1714px;
+    }
+    .footer-navbar-section {
+        top: 1714px;
+    }
+}

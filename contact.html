@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="shorcut icon" type="image" href="./IMG_0400-removebg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <section class="header-section">
+        <div class="mid-content">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./logo.jpg" alt="">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="./index.html" class="active-home">Home</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <img src="./menu.png" class="menu-icon" onclick="menutoggle()" width="30px">
+            </div>
+        </div>
+    </section>
+
+
+
+      <section class="contacts">
+        <div class="mid-content">
+            <div class="contact-head">
+                <h1>Contact</h1>
+            </div>
+            <div class="important-text">
+                <p>Hi, I believe you reached so far because you want to share your idea or <br> have any project to discuss or just want to say hi, then why not fill-up the form so that we can connect easily!</p>
+            </div>
+            <div class="all-contact-information">
+                <form action="">
+                    <label for="">
+                        <input type="text" placeholder="Full Name">
+                    </label>
+                    <label for="">
+                        <input type="email" name="" id="" placeholder="E-Mail">
+                    </label>
+                    <label for="">
+                       <textarea name="" placeholder="Message" id="" cols="30" rows="10" class="message"></textarea>
+                    </label>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+      </section>
+     
+<!-- footer navbar -->
+
+<section class="footer-navbar-section" id="footer-section">
+    <div class="mid-content">
+        <div class="footer-nav">
+            <nav>
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="./blog.html">Blog</a></li>
+                </ul>
+             
+            </nav>
+          
+        </div>
+        <div class="footer-social-link right">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100009459885824"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.instagram.com/abrarforhad/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://twitter.com/?lang=en"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+           <a target="_blank" href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+</section>
+<footer id="footer-section">
+    <div class="mid-content">
+        <p class="center">Copyright © 2021 By Forhad</p>
+    </div>
+</footer>
+
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
